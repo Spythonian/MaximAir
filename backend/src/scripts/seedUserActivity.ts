@@ -15,7 +15,7 @@ const mockEpisodes = [
 async function seedUserActivity() {
   try {
     // Connect to MongoDB
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/iconic-fm');
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/maximair');
     console.log('Connected to MongoDB');
 
     // Get all users

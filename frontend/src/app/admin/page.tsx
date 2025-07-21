@@ -224,7 +224,7 @@ export default function AdminDashboard() {
                     </p>
                     <ol className="text-yellow-700 text-sm list-decimal list-inside space-y-1 mb-4">
                         <li>Open a terminal and navigate to the backend directory</li>
-                        <li>Run: <code className="bg-yellow-100 px-2 py-1 rounded">cd iconic-fm-backend</code></li>
+                        <li>Run: <code className="bg-yellow-100 px-2 py-1 rounded">cd backend</code></li>
                         <li>Run: <code className="bg-yellow-100 px-2 py-1 rounded">npm run dev</code></li>
                         <li>Wait for "Server running on port 5000" message</li>
                         <li>Refresh this page</li>

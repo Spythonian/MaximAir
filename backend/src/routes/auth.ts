@@ -8,7 +8,7 @@ const router = express.Router();
 
 // Generate JWT token
 const generateToken = (userId: string): string => {
-  const secret = process.env.JWT_SECRET || 'iconic-fm-super-secret-jwt-key-2025';
+  const secret = process.env.JWT_SECRET || 'maximair-super-secret-jwt-key-2025';
   if (!secret) {
     throw new Error('JWT_SECRET is not defined');
   }

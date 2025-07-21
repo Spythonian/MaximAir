@@ -45,7 +45,7 @@ app.use('*', (req, res) => {
 });
 
 // Database connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/iconic-fm')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/maximair')
   .then(() => {
     console.log('✅ Connected to MongoDB');
     app.listen(PORT, () => {
