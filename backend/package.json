@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "dev": "PORT=5001 npx nodemon",
+    "dev:simple": "PORT=5001 npx ts-node src/server.ts",
     "build": "tsc",
     "seed": "npx ts-node src/scripts/seed.ts",
     "seed-categories": "npx ts-node src/scripts/seed-categories.ts",

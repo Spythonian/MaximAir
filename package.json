@@ -4,7 +4,7 @@
   "description": "MaximAir - Modern radio station management system",
   "scripts": {
     "dev:frontend": "cd frontend && npm run dev",
-    "dev:backend": "cd backend && npm run dev",
+    "dev:backend": "cd backend && npm run dev:simple",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "build:frontend": "cd frontend && npm run build",
     "build:backend": "cd backend && npm run build",
