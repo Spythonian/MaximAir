@@ -2,6 +2,18 @@
 
 MaximAir is a modern radio station management system with podcast capabilities.
 
+## Branching Strategy
+
+This project follows a standard Git branching model:
+
+- **`main`**: Production branch containing stable code
+- **`develop`**: Development branch for ongoing work
+- **`feature/*`**: Feature branches for new functionality
+- **`release/*`**: Release branches for version preparation
+- **`hotfix/*`**: Hotfix branches for urgent production fixes
+
+For more details, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Features
 
 - Episode management
