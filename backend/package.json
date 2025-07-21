@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/server.js",
-    "dev": "PORT=5001 npx nodemon",
+    "dev": "PORT=5001 npx nodemon src/server.ts",
     "dev:simple": "PORT=5001 npx ts-node src/server.ts",
     "build": "tsc",
     "seed": "npx ts-node src/scripts/seed.ts",
